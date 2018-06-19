@@ -39,5 +39,19 @@
         crossorigin="anonymous"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+<!-- * Socket.IO * -->
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    const socket = io();
+
+    socket.on('connect', () => {
+        console.log('Connected to server via socket.io');
+    });
+
+    socket.on('disconnect', () => {
+        console.log('Disconnected from socket.io server');
+    })
+</script>
 </body>
 </html>

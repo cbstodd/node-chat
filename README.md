@@ -1,6 +1,6 @@
 # Node Chat App
 
-A simple chat application build with pure NodeJS/JavaScript
+A simple chat application build with pure NodeJS/JavaScript and Socket.io
 
 To use:
 
