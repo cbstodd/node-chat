@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Colin Stodd - Colper Development (http://colinstodd.com)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "materialize-css": "^1.0.0-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
