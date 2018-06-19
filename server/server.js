@@ -6,6 +6,7 @@ const port = process.env.PORT || 3000;
 
 const app = express();
 
+// Renders public directory.
 app.use(express.static(publicPath));
 
 
