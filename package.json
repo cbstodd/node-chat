@@ -1,18 +1,23 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chat application built with NodeJS",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node ./server/server.js",
+    "nodemon": "nodemon ./server/server.js"
   },
   "author": "Colin Stodd - Colper Development (http://colinstodd.com)",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^6.0.0"
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "node": "^10.4.1"
   },
   "devDependencies": {
-    "materialize-css": "^1.0.0-rc.1"
+    "materialize-css": "^1.0.0-rc.1",
+    "nodemon": "^1.17.5"
   },
   "repository": {
     "type": "git",
