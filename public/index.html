@@ -42,16 +42,7 @@
 
 <!-- * Socket.IO * -->
 <script src="/socket.io/socket.io.js"></script>
-<script>
-    const socket = io();
+<script src="js/index.js"></script>
 
-    socket.on('connect', () => {
-        console.log('Connected to server via socket.io');
-    });
-
-    socket.on('disconnect', () => {
-        console.log('Disconnected from socket.io server');
-    })
-</script>
 </body>
 </html>
