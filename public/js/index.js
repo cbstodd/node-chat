@@ -1,3 +1,8 @@
+/*------------------------------------------------
+ This page are sockets that are listeing to
+ events. Sort of like trip-wires; If people
+ are signing on and off etc.
+------------------------------------------------*/
 const socket = io();
 
 socket.on('connect', () => {
